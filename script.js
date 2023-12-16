@@ -41,7 +41,7 @@ function makeMove(cellIndex) {
             setTimeout(() => {
                 message.innerText = '';
                 currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-            }, 1500);
+            }, 2000);
         }
     }
 }
